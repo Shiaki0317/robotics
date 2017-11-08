@@ -1,0 +1,50 @@
+Determining if the function log exists failed with the following output:
+Change Dir: /home/shida/ownCloud/robotics/cmake_test/Step5/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55b9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55b9a.dir/build.make CMakeFiles/cmTC_55b9a.dir/build
+make[1]: ディレクトリ '/home/shida/ownCloud/robotics/cmake_test/Step5/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_55b9a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=log   -o CMakeFiles/cmTC_55b9a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘log’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_55b9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55b9a.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=log    CMakeFiles/cmTC_55b9a.dir/CheckFunctionExists.c.o  -o cmTC_55b9a -rdynamic 
+CMakeFiles/cmTC_55b9a.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+CheckFunctionExists.c:(.text+0x15): `log' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_55b9a.dir/build.make:97: ターゲット 'cmTC_55b9a' のレシピで失敗しました
+make[1]: *** [cmTC_55b9a] エラー 1
+make[1]: ディレクトリ '/home/shida/ownCloud/robotics/cmake_test/Step5/CMakeFiles/CMakeTmp' から出ます
+Makefile:126: ターゲット 'cmTC_55b9a/fast' のレシピで失敗しました
+make: *** [cmTC_55b9a/fast] エラー 2
+
+
+Determining if the function exp exists failed with the following output:
+Change Dir: /home/shida/ownCloud/robotics/cmake_test/Step5/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_31caa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_31caa.dir/build.make CMakeFiles/cmTC_31caa.dir/build
+make[1]: ディレクトリ '/home/shida/ownCloud/robotics/cmake_test/Step5/CMakeFiles/CMakeTmp' に入ります
+Building C object CMakeFiles/cmTC_31caa.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=exp   -o CMakeFiles/cmTC_31caa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘exp’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_31caa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31caa.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=exp    CMakeFiles/cmTC_31caa.dir/CheckFunctionExists.c.o  -o cmTC_31caa -rdynamic 
+CMakeFiles/cmTC_31caa.dir/CheckFunctionExists.c.o: 関数 `main' 内:
+CheckFunctionExists.c:(.text+0x15): `exp' に対する定義されていない参照です
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_31caa.dir/build.make:97: ターゲット 'cmTC_31caa' のレシピで失敗しました
+make[1]: *** [cmTC_31caa] エラー 1
+make[1]: ディレクトリ '/home/shida/ownCloud/robotics/cmake_test/Step5/CMakeFiles/CMakeTmp' から出ます
+Makefile:126: ターゲット 'cmTC_31caa/fast' のレシピで失敗しました
+make: *** [cmTC_31caa/fast] エラー 2
+
+

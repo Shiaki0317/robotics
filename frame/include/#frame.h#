@@ -1,0 +1,7 @@
+#include <eigen3/Eigen/Core>
+
+class frame {
+ private:
+  Vector3D pos;
+ public:
+}

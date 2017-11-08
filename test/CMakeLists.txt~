@@ -1,0 +1,11 @@
+cmake_minimum_required( VERSION 3.0 )
+project( cmake_eigen )
+
+# load the module to use pkg-config
+find_package(PkgConfig)
+
+# search library with pkg-config and name its results "LIBSAMPLE"
+pkg_check_modules(eigen3 REQUIRED)
+
+# use the variable <RESULTNAME>_INCLUDE_DIRS to get include paths
+#include_directories(${LIBSAMPLE_INCLUDE_DIRS})

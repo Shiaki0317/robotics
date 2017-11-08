@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shida/ownCloud/robotics/cmake_test/Step5/MathFunctions/MathFunctions.h
+
+/home/shida/ownCloud/robotics/cmake_test/Step5/MathFunctions/Table.h
+
+/home/shida/ownCloud/robotics/cmake_test/Step5/MathFunctions/mysqrt.cxx
+MathFunctions.h
+/home/shida/ownCloud/robotics/cmake_test/Step5/MathFunctions/MathFunctions.h
+TutorialConfig.h
+/home/shida/ownCloud/robotics/cmake_test/Step5/MathFunctions/TutorialConfig.h
+stdio.h
+-
+Table.h
+/home/shida/ownCloud/robotics/cmake_test/Step5/MathFunctions/Table.h
+math.h
+-
+
+TutorialConfig.h
+
