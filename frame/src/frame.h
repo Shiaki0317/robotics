@@ -1,7 +1,5 @@
 #include <Eigen/Dense>
 
-using namespace Eigen;
-
 class Frame {
  private:
   Matrix3d rot;
